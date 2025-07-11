@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            caption-side: bottom;
+        }
+        th {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        td {
+            padding: 10px;
+            text-align: right;
+            border: 1px solid black;
+        }
+        caption{
+            text-align: right;
+        }
+        th:nth-child(5), td:nth-child(5) { /* 표에서 5열 th와 5열 td의 색깔을 #e5f6f6으로 바꿔라 */
+            background-color: #e5f6f6;
+        }
+    </style>
+
+    <title>Quiz_01</title>
+</head>
+<body>
+    <table>
+        <caption>출처: 통계청 100대 지표</caption>
+        <thead>
+            <tr>
+                <th>지수</th>
+                <th>2019년</th>
+                <th>2020년</th>
+                <th>2021년</th>
+                <th>2022년</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>가구수</th>
+                <td>20,891,348</td>
+                <td>21,484,785</td>
+                <td>22,022,753</td>
+                <td>22,383,187</td>
+            </tr>
+            <tr>
+                <th>1인 가구 수</th>
+                <td>6,147,516</td>
+                <td>6,643,354</td>
+                <td>7,165,788</td>
+                <td>7,502,350</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,11 @@
+p {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    }
+li {
+    color: blue;
+}
+ul {
+    list-style: none;
+}

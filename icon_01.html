@@ -8,11 +8,13 @@
     <!-- font cdn 에서 font awesome을 검색 후 link를 복붙 -->
     <style>
         ul{
-            list-style: none; /* ul 리스트의 글 머리 기호(●)를 없애겠다. */
+            /* list-style: none; ul 리스트의 글 머리 기호(●)를 없애겠다. */
+            list-style-image: url('dot.png');
         }
         h1{
             font-size: 130px;
-            color: rgba(180, 138, 138, 0.3); /* rgba (빨강,초록,파랑,투명도 : 0~1 숫자가 작을수록 투명함 ) */
+            color: rgba(180, 138, 138, 0.8); /* rgba (빨강,초록,파랑,투명도 : 0~1 숫자가 작을수록 투명함 ) */
+            text-shadow: 10px 10px 10px gray; /* (그림자가 가로/세로 떨어진 거리) 와 (그림자 블러) 와 (색상) */
         }
         a:link{ /* 아직 방문하지 않은 상태 */
             text-decoration: none;
